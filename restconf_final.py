@@ -108,7 +108,7 @@ def disable():
     
     if(resp.status_code >= 200 and resp.status_code <= 299):
         print("STATUS OK: {}".format(resp.status_code))
-        return "Interface loopback 66070123 is shutdowned successfully"
+        return "Interface loopback 65070053 is shutdowned successfully"
     elif(resp.status_code == 404):
         return "Cannot shutdown: Interface loopback 65070053"
     else:
